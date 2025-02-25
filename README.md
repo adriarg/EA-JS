@@ -1,12 +1,19 @@
 # EA-JS
 
+## Referencies Usades
+
+Web Tutorial de JS: https://javascript.info/
+Fork base del repo del professor: https://github.com/rocmeseguer/EA-JS
+Material de l'assignatura: https://atenea.upc.edu/mod/page/view.php?id=4903402
+
+
 ## Requisitos Previos
 
 Asegúrate de tener instalados los siguientes programas en tu sistema:
 
 - [Node.js](https://nodejs.org/) (versión 14.x o superior)
 
-## Estrutura
+## Estructura
 
 ```
 ├── 1-JS
@@ -42,3 +49,4 @@ Ejecutar JS
 ```
 node main.js
 ```
+
