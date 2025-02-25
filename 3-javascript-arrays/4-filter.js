@@ -12,7 +12,7 @@ console.log(developers)
 
 // Functional Approach
 const result1 = students.filter(function (student) {
-  if (student.course === 'Web Development') {
+  if (student.course === 'Web Development') {//compara si el curso es igual a Web Development
     return true
   }
 })

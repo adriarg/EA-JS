@@ -15,8 +15,8 @@ students.forEach(function (student, index, students) {
 
 const fullnames = [];
 
-students.forEach((student) => {
-  fullnames.push(student.name + " " + student.lastname);
+students.forEach((student) => { // concatena el nom i el cognom dels estudiants
+  fullnames.push(student.name + " " + student.lastname); // push añade un elemento al final del array
 });
 
 console.log(fullnames);

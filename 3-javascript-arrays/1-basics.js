@@ -7,11 +7,11 @@ console.log(stringsArray); // [ 'I', 'go', 'home' ]
 
 // add elements to start
 const numbersArray = [20, 30, 50, 60];
-const numbersArray2 = [5, 7, ...numbersArray]
+const numbersArray2 = [5, 7, ...numbersArray] //copiar numbersArray y agregar 5 y 7
 console.log(numbersArray2); // [ 5, 7, 20, 30, 50, 60 ]
 
 // sclice
-const numbersArray3 = [...numbersArray.slice(0, 2)]
+const numbersArray3 = [...numbersArray.slice(0, 2)] //copiar los primeros 2 elementos
 console.log(numbersArray3); // [ 20, 30 ]
 
 // add to the middle using slice

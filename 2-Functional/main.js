@@ -3,9 +3,9 @@
 
 // Given an array of numbers, double each number and return a new array
 const numbers = [1, 2, 3, 4, 5];
-const doubledNumbers = [];
+let doubledNumbers = [];
 
-// Imperative (Non-Functional) Approach
+// Imperative (Non-Functional) Approach, a JS ningú fa aquest codi!
 for (let i = 0; i < numbers.length; i++) {
   doubledNumbers.push(numbers[i] * 2);
 }
@@ -51,7 +51,7 @@ console.log(newNumbers); // [1, 2, 3, 4, 5]
 
 
 const person = { nombre: 'Juan', edad: 25 };
-const newPerson = { ...person, edad: 26 }; 
+const newPerson = { ...person, edad: 26 }; //copiar person y cambiar edad
 console.log(newPerson);  // { nombre: 'Juan', edad: 26 }
 
 
@@ -66,7 +66,7 @@ function multiply (a, b) {
 	return a * b;
 }
 
-console.log(aplicarOperacion(3, 4, multiply));  // 12
+console.log(applyOperation(3, 4, multiply));  // 12
 
 
 
